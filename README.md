@@ -46,3 +46,7 @@ ____
 ____
 
 
+### [Eureka-Server](https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance)
+```
+Eureka is a RESTful service mainly utilized in the AWS cloud to locate services for load balancing and failover of middle-tier servers. This service is known as the Eureka Server. Additionally, Eureka includes a Java-based client component, the Eureka Client, which simplifies interactions with the service. The client features a built-in load balancer that performs basic round-robin load balancing. At Netflix, a more advanced load balancer enhances Eureka to offer weighted load balancing based on factors such as traffic, resource usage, and error conditions, ensuring greater resiliency.
+```
