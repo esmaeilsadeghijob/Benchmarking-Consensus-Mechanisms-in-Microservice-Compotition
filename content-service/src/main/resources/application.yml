@@ -1,0 +1,25 @@
+server:
+  port: 6061
+
+spring:
+  application:
+    name: content-service
+
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:D:/research/dataset/database.sqlite
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8061/eureka}
+  instance:
+    preferIpAddress: true

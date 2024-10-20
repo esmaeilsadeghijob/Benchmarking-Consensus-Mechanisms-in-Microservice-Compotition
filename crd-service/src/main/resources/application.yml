@@ -1,0 +1,19 @@
+server:
+  port: 6666
+
+spring:
+  application:
+    name: crd-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8061/eureka/
+  instance:
+    appname: ${spring.application.name}
+    prefer-ip-address: true
