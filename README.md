@@ -12,7 +12,7 @@
 
 ### [Pitchfork Reviews Dataset](https://www.kaggle.com/nolanbconaway/pitchfork-data/data)
 
-### [Consul Documentation](https://developer.hashicorp.com/consul)
+### [Consul](https://developer.hashicorp.com/consul)
 
 ### [Apache JMeter](https://jmeter.apache.org/download_jmeter.cgi)
 
