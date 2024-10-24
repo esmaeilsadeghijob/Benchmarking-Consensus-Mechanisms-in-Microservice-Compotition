@@ -5,7 +5,6 @@
 Implementing the Saga pattern in a microservices architecture using Spring Boot and Eureka involves several key steps. The Saga pattern allows you to maintain data consistency across multiple services by splitting a large transaction into smaller, manageable steps, each with its own compensating action in case of failure.
 ````
 
-### Steps to Implement the Saga Pattern
 #### Add Dependencies (pom.xml)
 ```xml
 <dependency>
