@@ -9,7 +9,6 @@
     ●  Consul
 
 ------
-
 ### [Pitchfork Reviews Dataset](https://www.kaggle.com/nolanbconaway/pitchfork-data/data)
 
 ### [Consul](https://developer.hashicorp.com/consul)
@@ -21,6 +20,9 @@
 ### [RabbitMq](https://www.rabbitmq.com/docs/download)
 
 ### [Docker](https://docs.docker.com/engine/install/)
+
+### [Openjdk:19-alpine](https://hub.docker.com/layers/library/openjdk/19-alpine/images/sha256-32c1827093cd3070442939f5a60e611496e8632b02e8e5687ed328f0a23b2159)
+
 ------
 
 - database.sqlite
