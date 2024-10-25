@@ -10,12 +10,24 @@ spring:
     url: jdbc:sqlite:D:/research/dataset/database.sqlite
   jpa:
     database-platform: org.hibernate.community.dialect.SQLiteDialect
+  kafka:
+    bootstrap-servers: 9092
+    consumer:
+      group-id: tendermint-group
+      auto-offset-reset: earliest
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      value-serializer: org.apache.kafka.common.serialization.StringDeserializer
+      key-serializer: org.apache.kafka.common.serialization.StringDeserializer
 
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
+
 
 eureka:
   client:
